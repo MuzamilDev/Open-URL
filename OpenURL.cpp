@@ -9,7 +9,7 @@ int main()
     string url;
 
     cout<<"Enter URL "<<endl;
-    cin>>url;
+    getline(cin,url);
 
 
     ShellExecute(NULL, "open", url.c_str(), NULL, NULL, SW_SHOWNORMAL);
